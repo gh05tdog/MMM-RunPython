@@ -5,7 +5,5 @@ module.exports = NodeHelper.create({
     
     start: function () {
         console.log('[WS281X-Server] Starting node_helper');
-        // Start API Endpoints
-        this.webServer()
     },
 })
