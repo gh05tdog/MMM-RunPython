@@ -6,9 +6,8 @@ Module.register("MMM-RunPython",{
 		text: "RunPythonScript"
 	},
 
-	loaded: function(callback) {
-        this.finishLoading();
-        console.info(this.name + ' is loaded!');
-        callback();
-    }
+    start: function() {
+        Log.info('[' + this.name + '] Starting');
+        this.sendSocketNotification('init', this.config);
+    },
 });
