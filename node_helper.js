@@ -4,6 +4,6 @@ module.exports = NodeHelper.create({});
 module.exports = NodeHelper.create({
     
     start: function () {
-        console.log('[WS281X-Server] Starting node_helper');
+        console.log('[RUN_Python] Starting node_helper');
     },
 })
