@@ -13,7 +13,8 @@ module.exports = NodeHelper.create({
             const self = this
             this.config = payload
             
-            // execute external DHT Script
+
+            console.log('[Run_Python] RUNNING SCRIPT')
             exec("sudo ./run.sc ", (error, stdout) => {
             if (error) {
                  console.error(`exec error: ${error}`);
