@@ -8,7 +8,7 @@ Module.register("MMM-RunPython",{
 
 	loaded: function(callback) {
         this.finishLoading();
-        Log.log(this.name + ' is loaded!');
+        console.info(this.name + ' is loaded!');
         callback();
     }
 });
