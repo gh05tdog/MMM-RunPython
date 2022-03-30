@@ -7,7 +7,7 @@ module.exports = NodeHelper.create({
     start: function () {
         console.log('[RUN_Python] Starting node_helper');
         console.log('[Run_Python] RUNNING SCRIPT')
-        exec("sudo ./run.sc ", (error, stdout) => {
+        exec("sudo ~/MagicMirror/modules/MMM-RunPython/run.sh ", (error, stdout) => {
             if (error) {
                  console.error(`exec error: ${error}`);
                  return;
