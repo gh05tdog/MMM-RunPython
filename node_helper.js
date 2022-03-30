@@ -6,7 +6,7 @@ module.exports = NodeHelper.create({
     start: function () {
         console.log('[RUN_Python] Starting node_helper');
         console.log('[Run_Python] RUNNING SCRIPT')
-            exec("sudo ./run.sc ", (error, stdout) => {
+        child_process.exec("sudo ./run.sc ", (error, stdout) => {
             if (error) {
                  console.error(`exec error: ${error}`);
                  return;
