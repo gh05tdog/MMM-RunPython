@@ -1,2 +1,2 @@
 #!/bin/sh
-python ~/MagicMirror/modules/MMM-RunPython/run.sh
+python ~/MagicMirror/modules/MMM-RunPython/lowlevel.py
