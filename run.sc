@@ -1,2 +1,2 @@
 #!/bin/sh
-python python_script.py
+python ~/MagicMirror/modules/MMM-RunPython/run.sh
